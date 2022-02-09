@@ -1,0 +1,134 @@
+body{
+margin-top: 80px;
+}
+
+#output{
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: 1rem auto;
+    max-width: 20rem;
+    height: 7rem;
+   
+}
+
+#color-container{
+    max-width: fit-content;
+    height: auto;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 96px;
+}
+
+.color-pick{
+  margin: 10px;
+  height: 32px;
+  width: 32px;
+    border-radius: 50%;
+    border: 1px double black;
+    background-color: white;
+		transition: all 0.2s ease;
+}
+
+.active{
+    border: 2px solid gray;
+    box-shadow: 4px 5px 8px black;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 12px 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 154%;
+  left: 110%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.labelClr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  margin: 1rem auto;
+  max-width: 20rem;
+  height: 7rem;
+}
+.header{
+  max-width: 212px;
+    height: 35px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#size_container{
+  max-width: 220px;
+  height:  auto;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-pic{
+  margin: 5px;
+  height: 24px;
+  width: 60px;
+  border-radius: 25px;
+  border: 1px double black;
+  background-color: white;
+  transition: all 0.2s ease;
+  text-align: center;padding: 8px;
+  cursor: pointer;
+}
+.color-pi{
+  margin: 5px;
+  height: 24px;
+  width: 60px;
+  border-radius: 25px;
+  border: 1px double black;
+  background-color: white;
+  transition: all 0.2s ease;
+  text-align: center;padding: 8px;
+  cursor: pointer;
+
+}
+#style_container{
+  max-width: 220px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
